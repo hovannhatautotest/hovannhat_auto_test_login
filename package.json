@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.14.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

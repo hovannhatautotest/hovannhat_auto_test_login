@@ -7,7 +7,7 @@ describe('Verify validation text', () => {
       cy.xpath('/html/body/div[2]/div/div/div[2]/div[1]/div/div/div[1]/div').click()
     })
     
-    it('Verify that validation text of "Username" field display when logging in with "Username" field emptyn', () => {
+    it('Verify that validation text of "Username" field display when logging in with "Username" field empty', () => {
       cy.get('#password').type('text_pass')
       cy.get('#idSubmit').click()
       cy.wait(2000)
